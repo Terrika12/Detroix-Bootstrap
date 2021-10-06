@@ -1,0 +1,131 @@
+body { 
+    margin: 0;
+    padding: 0;
+}
+/*START OF HEADER*/
+.header .container-fluid {
+    padding-top: 20px;
+    background-color: #121e2e;
+}
+
+.top-nav ul{
+    list-style-type: none;
+}
+
+.header .top-link {
+    padding: 50px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.header .top-nav ul li a {
+    color: whitesmoke;
+}
+
+.header .container {
+    padding-top: 25px;
+}
+
+.container ul li {
+    padding: 8px 16px;
+    background-color: #121e2e;
+    border-radius: 10px;
+    transition: background-color 0.5s ease;
+    color: white;
+}
+
+.container ul li:hover {
+    background-color: #ff8901;
+}
+/*END OF HEADER*/
+
+/*START OF MAIN*/
+.main .carousel-inner {
+    padding: 50px;
+    width: 100%;
+    border-radius: 175px;
+}
+
+.main .col-md-4 {
+    padding-left: 60px;
+}
+
+.main .col-md-4 p {
+    text-transform:none;
+}
+
+.main button {
+    text-transform: uppercase;
+    color: white;
+    background-color: #121e2e;
+}
+
+
+/*END OF MAIN*/
+
+/*START OF FOOTER*/
+.footer {
+    margin-top: 100px;
+    background: radial-gradient(
+        ellipse at top, 
+        rgba(41,70,102,1) 0%, 
+        rgba(23,32,47,1) 50%,
+        rgba(15,24,33,1) 100%);
+}
+.footer .col-md-4 {
+    padding: 60px;
+    color: white;
+}
+
+.footer .services ul li {
+    list-style-image: url(../media/cog.png);
+}
+
+.footer h4 a {
+    font-size: 16px;
+    color: white;
+}
+
+.footer .h4 p {
+    color: grey;
+}
+
+.footer .opportunities ul li{
+    list-style-image: url(../media/chat.png);
+}
+
+.footer .date-div {
+    margin-top: 5%;
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+    background-color: #c08445;
+    color: white;
+    text-align: center;
+}
+
+.footer li:nth-child(2) .date-div {
+    background-color: #ad543b;
+}
+
+.footer li:nth-child(3) .date-div {
+    background-color: #b33a56;
+}
+.footer .h3 ul .date-div {
+    list-style-type: none;
+}
+
+.footer h5 {
+    font-size: 16px;
+    position: relative;
+}
+
+.footer button {
+    text-transform: uppercase;
+    color: white;
+    background-color: #1c2e46;
+}
+
+
+/*END OF FOOTER*/
+
